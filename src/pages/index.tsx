@@ -15,7 +15,7 @@ export default function Home() {
       <main className={`${manrope.variable} font-sans`}>
         <div>
           <div className="p-8 flex justify-center">
-            <Image src={"/logo.png"} width={80} height={80} alt="Design System" />
+            <img src={"/logo.png"} width={80} height={80} alt="Design System" />
           </div>
           <div className="max-w-screen-sm mx-auto">
             <h1 className="text-4xl font-black text-center">
