@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-primary {
+  @apply border font-medium border-gray-800 px-[calc(1.375*16px)] rounded-md text-sm leading-[calc(2.5*16px)] text-white bg-gray-800 shadow-lg hover:-translate-y-px ease-in duration-75;
+}
+
+.btn-secondary {
+  @apply border font-medium border-gray-300 px-[calc(1.375*16px)] rounded-md text-sm leading-[calc(2.5*16px)] text-gray-900 bg-gray-50 shadow-lg hover:-translate-y-px ease-in duration-75
+}
+
+.btn-ghost {
+  @apply border font-medium border-transparent hover:border-gray-300 hover:bg-gray-50 bg-transparent px-[calc(1.375*16px)] rounded-md text-sm leading-[calc(2.5*16px)] text-gray-900 ease-in duration-100
+}
+
+.badge {
+  @apply bg-gray-200 rounded-full font-medium text-black text-sm px-2 py-0.5 mx-1
+}

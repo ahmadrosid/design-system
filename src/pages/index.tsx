@@ -1,7 +1,8 @@
 import Head from "next/head";
 import { Manrope } from "next/font/google";
 import Image from "next/image";
-import { ButtonPimary, ButtonSecondary } from "@/components/button";
+import { ButtonGhost, ButtonPimary, ButtonSecondary } from "@/components/button";
+import Badge from "@/components/badge";
 
 const manrope = Manrope({ subsets: ["latin"],   variable: "--font-sans",});
 
@@ -25,6 +26,17 @@ export default function Home() {
             <div className="py-8 flex gap-4 justify-center">
               <ButtonPimary>{"Get started- It's free"}</ButtonPimary>
               <ButtonSecondary>Learn more</ButtonSecondary>
+            </div>
+            <div className="py-2 flex gap-4 justify-center">
+              <ButtonGhost>Sign in</ButtonGhost>
+              <ButtonGhost>Register</ButtonGhost>
+            </div>
+            <div className="py-2">
+              <p>
+                <Badge>Format</Badge>
+                <Badge>Works</Badge>
+                <Badge>None</Badge>
+              </p>
             </div>
           </div>
         </div>
