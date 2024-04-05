@@ -1,5 +1,5 @@
 export default function Badge({children}: any) {
     return (
-        <span className="badge">{children}</span>
+        <p className="badge">{children}</p>
     )
 }

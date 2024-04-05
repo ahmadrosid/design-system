@@ -14,6 +14,21 @@ export function ButtonSecondary({children}: any) {
     )
 }
 
+export function ButtonSuccess({children}: any) {
+    return (
+        <button className="btn-success">
+            {children}
+        </button>
+    )
+}
+
+export function ButtonDanger({children}: any) {
+    return (
+        <button className="btn-danger">
+            {children}
+        </button>
+    )
+}
 
 export function ButtonGhost({children}: any) {
     return (
